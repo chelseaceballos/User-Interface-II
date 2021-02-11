@@ -24,8 +24,20 @@ font to use later
 font-family: 'Roboto Mono', monospace;
 */
 
-.links{
+.links div{
     width:50%;
     align-items:center;
     display:flex;
     justify-content:space-around;
+
+  /*  #top{
+        height:85vh;
+        
+        margin-top:5%;
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center top;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }*/
