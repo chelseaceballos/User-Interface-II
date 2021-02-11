@@ -19,3 +19,13 @@ body{
 section{
     padding:4% 0;
 }
+/*
+font to use later
+font-family: 'Roboto Mono', monospace;
+*/
+
+.links{
+    width:50%;
+    align-items:center;
+    display:flex;
+    justify-content:space-around;
