@@ -16,22 +16,24 @@ body{
     font-size:1.8rem;
     line-height: 1.5;
     color:#4F4F4F;
-    font-family: 'PT Sans', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color:#FFFAFA;
 
 section{
     padding:4% 0;
 }
 
-a{
-    text-decoration:none;
-    letter-spacing: 3px;
-    color:#4f4f4f;
-    font-family: 'PT sans', sans-serif;
-}
 
-
-
+.top{
+        height:85vh;
+        
+        margin-top:5%;
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center top;
+      display:flex;
+      justify-content:center;
+      align-items:center;
 
 
 
@@ -47,14 +49,5 @@ font to use later
     display:flex;
     justify-content:space-around;
 
-   #top{
-        height:85vh;
-        
-        margin-top:5%;
-        background-size:cover;
-        background-repeat:no-repeat;
-        background-position:center top;
-      display:flex;
-      justify-content:center;
-      align-items:center;
+   
     }*/
