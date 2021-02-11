@@ -10,27 +10,44 @@
 /*General Styles*/
 html{
     font-size:62.5%;
-}
-body{
-    font-size:1.6rem;
-    line-height: 1.5;
     
 }
+body{
+    font-size:1.8rem;
+    line-height: 1.5;
+    color:#4F4F4F;
+    font-family: 'PT Sans', sans-serif;
+    background-color:#FFFAFA;
+
 section{
     padding:4% 0;
 }
+
+a{
+    text-decoration:none;
+    letter-spacing: 3px;
+    color:#4f4f4f;
+    font-family: 'PT sans', sans-serif;
+}
+
+
+
+
+
+
+
+
 /*
 font to use later
-font-family: 'Roboto Mono', monospace;
-*/
 
+ 
 .links div{
     width:50%;
     align-items:center;
     display:flex;
     justify-content:space-around;
 
-  /*  #top{
+   #top{
         height:85vh;
         
         margin-top:5%;
