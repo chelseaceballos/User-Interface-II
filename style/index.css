@@ -1,1 +1,21 @@
 /* Add CSS styling here */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0 ;
+    max-width: 100%;
+    border: 1px solid grey;
+}
+
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height: 1.5;
+    
+}
+section{
+    padding:4% 0;
+}
