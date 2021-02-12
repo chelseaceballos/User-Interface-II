@@ -1,1 +1,59 @@
 /* Add CSS styling here */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0 ;
+    max-width: 100%;
+    border: 1px solid grey;
+}
+
+/*General Styles*/
+html{
+    font-size:62.5%;
+    
+}
+body{
+    font-size:1.8rem;
+    line-height: 1.5;
+    color:black;
+    font-family: sans-serif;
+    background-color:#FFFAFA;
+
+/*My CSS*/
+
+.gallery{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+}
+ footer{
+     text-align:center; 
+     background-color:red;
+ }
+
+ .headerlinks .myname {
+     text-decoration: none;
+ }
+
+/*
+font to use later
+
+.top{
+        height:85vh;
+        
+        margin-top:5%;
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center top;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+ 
+.links div{
+    width:50%;
+    align-items:center;
+    display:flex;
+    justify-content:space-around;
+
+   
+    }*/
