@@ -47,7 +47,7 @@ table {
 *{ 
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid grey 
+    /* border: 1px solid grey  */
 }
 
 /* General Styles */
@@ -162,6 +162,7 @@ button{
     justify-content: center;
     background-color: rgb(216, 158, 208);
     color: white;
+    padding: 7% 0;
 }
 
 #contact a{
@@ -193,7 +194,13 @@ button{
     .links{
         flex-direction: column;
     }
-
+    .gallery{
+        padding: 4% 2%;
+        justify-content: space-between;        
+    }
+    .container{
+        width:45%;
+    }
 }
 
 @media(max-width:800px){ /* Anything < 800px is changing*/
