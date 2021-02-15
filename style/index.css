@@ -204,5 +204,37 @@ button{
 }
 
 @media(max-width:800px){ /* Anything < 800px is changing*/
+    header{
+        display: flex;
+        justify-content: center;
+        margin-left: 35%;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+        width: 100%;
+        background-color: white;
+    }
+    .logo{
+        width: 40%;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    }
+    .links{
+        flex-direction: column;
+    }
+    .gallery{
+        padding: 4% 5%;
+        justify-content: space-between;      
+    }
+    .container{
+        width:45%;
+    }
+    #top{
+        height: 40vh;
+    }
 
 }
