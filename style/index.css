@@ -53,7 +53,7 @@ table {
 /* General Styles */
 
 html{
-    62.5%
+    font-size:62.5%;
 }
 
 body{
@@ -136,26 +136,37 @@ button{
     overflow: auto;
 }
 
-.middle{
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 45%;
+.gallery {
+    display: flex;
+    
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
-.middle img{
+.gallery div{
+    margin: 2% 0;
+}
+ img{
     width: 100%;
-    height: auto;
+    height: 30vh;
 }
 .desc{
     padding: .5rem;
     text-align: center;
 }
+
+
+
 /*Footer*/
 #contact{
     display: flex;
     justify-content: center;
     background-color: rgb(216, 158, 208);
     color: white;
+}
+
+#contact a{
+    background-color: white;
+    padding: 1% 1%;
 }
 
