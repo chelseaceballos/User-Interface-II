@@ -69,6 +69,7 @@ h1, h2, h3{
 
 h1{
     font-size: 5rem;
+    color: black;
 }
 h2{
     font-size: 4rem;
@@ -86,13 +87,14 @@ section {
     padding: 4% 0;
 }
 
-/*HEADER*/
+/*Nav Section Styles*/
 nav{
     display: flex;
     justify-content: space-between;
     width: 100%;
     position: fixed;
-    background-color: rbga (255, 255, 255, 0.8);
+    background-color: white;
+    
 }
 .logo{
     width: 49%;
@@ -113,5 +115,47 @@ nav{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url('images/topphoto.jpeg');
+    background-image: url('../images/topphoto.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
+button{
+    margin-top: 5%;
+    padding:2%;
+    width:40%;
+    background-color: crimson;
+    font-size: 1.5rem;
+}
+
+/*Middle Gallery Styles*/
+.container{
+    max-width: 50%;
+    margin: auto ;
+    background: rgb(208, 208, 228);
+    overflow: auto;
+}
+
+.middle{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 45%;
+}
+
+.middle img{
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: .5rem;
+    text-align: center;
+}
+/*Footer*/
+#contact{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(216, 158, 208);
+    color: white;
+}
+
