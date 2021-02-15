@@ -177,6 +177,12 @@ button{
         justify-content: center;
         margin-left: 35%;
     }
+    h2{
+        
+        width:100%;
+        text-align: center;
+        
+    }
     nav {
         display: flex;
         flex-direction: column;
@@ -225,7 +231,11 @@ button{
     }
     .links{
         flex-direction: column;
+        padding: 2% 0;
     }
+    /* a{
+        border: 1px solid grey;
+    } */
     .gallery{
         padding: 4% 5%;
         justify-content: space-between;      
